@@ -1,10 +1,11 @@
+import Header from '@pages/header/header.page';
 import './App.scss';
 
 function App() {
   return (
     <>
       <div className="container">
-        <header className="header">Header part</header>
+        <Header />
         <div className="content">
           <nav className="sidebar">Navigation</nav>
           <main className="hotel-view">Hotel view</main>
