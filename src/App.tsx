@@ -1,5 +1,6 @@
 import Header from '@pages/header/header.page';
 import './App.scss';
+import SideBar from '@components/side-bar/side-bar.component';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <div className="container">
         <Header />
         <div className="content">
-          <nav className="sidebar">Navigation</nav>
+          <SideBar />
           <main className="hotel-view">Hotel view</main>
         </div>
       </div>
