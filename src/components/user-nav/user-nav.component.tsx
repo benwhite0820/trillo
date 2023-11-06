@@ -1,4 +1,4 @@
-import { BsBookmark, BsChatDots } from 'react-icons/bs';
+import { BsFillBookmarkFill, BsFillChatRightDotsFill } from 'react-icons/bs';
 import UserLogo from '@assets/images/user.jpg';
 import './user-nav.style.scss';
 
@@ -6,11 +6,11 @@ const UserNav = () => {
   return (
     <nav className="user-nav">
       <div className="user-nav__icon-box">
-        <BsBookmark className="user-nav__icon" />
+        <BsFillBookmarkFill className="user-nav__icon" />
         <span className="user-nav__notification">7</span>
       </div>
       <div className="user-nav__icon-box">
-        <BsChatDots className="user-nav__icon" />
+        <BsFillChatRightDotsFill className="user-nav__icon" />
         <span className="user-nav__notification">13</span>
       </div>
       <div className="user-nav__user">
