@@ -1,4 +1,3 @@
-import Form from '@components/form/form.component';
 import './header.style.scss';
 import Logo from '@assets/images/logo.png';
 import SearchBar from '@components/search-bar/search-bar.component';
@@ -8,9 +7,9 @@ const Header = () => {
   return (
     <header className="header">
       <img src={Logo} alt="trillo logo" className="logo" />
-      <Form>
+      <form action="" className="search">
         <SearchBar />
-      </Form>
+      </form>
 
       <UserNav />
     </header>
