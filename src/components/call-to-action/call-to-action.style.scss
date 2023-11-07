@@ -1,6 +1,12 @@
+@import '../../assets/scss/mixin';
+
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+
+  @include respond(bp-medium) {
+    padding: 2.5rem 0;
+  }
 
   &__book-now {
     font-size: 2rem;

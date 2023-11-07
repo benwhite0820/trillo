@@ -1,3 +1,5 @@
+@import './assets/scss/_mixin.scss';
+
 :root {
   --color-primary: #eb2f64;
   --color-primary-light: #ff3366;
@@ -28,6 +30,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+
+  @include respond(bp-large) {
+    font-size: 50%; // 8px
+  }
 }
 
 body {
