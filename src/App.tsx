@@ -3,6 +3,7 @@ import './App.scss';
 import Header from '@components/header/header.component';
 import SideBar from '@components/side-bar/side-bar.component';
 import Overview from '@components/overview/overview.component';
+import Detail from '@components/detail/detail.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <main className="hotel-view">
             <Gallery />
             <Overview />
+            <Detail />
           </main>
         </div>
       </div>
