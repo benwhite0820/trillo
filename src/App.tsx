@@ -1,5 +1,5 @@
-import Header from '@pages/header/header.page';
 import './App.scss';
+import Header from '@components/header/header.component';
 import SideBar from '@components/side-bar/side-bar.component';
 
 function App() {
