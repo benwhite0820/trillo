@@ -1,7 +1,6 @@
 import { BsFillStarFill } from 'react-icons/bs';
 import { FaLocationDot } from 'react-icons/fa6';
 import './overview.style.scss';
-import test from '../../assets/images/user-1.jpg';
 
 const Overview = () => {
   return (
