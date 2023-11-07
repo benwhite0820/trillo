@@ -5,6 +5,7 @@ import SideBar from '@components/side-bar/side-bar.component';
 import Overview from '@components/overview/overview.component';
 import Description from '@components/description/description.component';
 import UserReviews from '@components/user-reviews/user-reviews.component';
+import CallToAction from '@components/call-to-action/call-to-action.component';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
               <Description />
               <UserReviews />
             </div>
+            <CallToAction />
           </main>
         </div>
       </div>
