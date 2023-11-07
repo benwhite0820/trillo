@@ -6,15 +6,11 @@ import {
 } from 'react-icons/bi';
 import './side-bar.style.scss';
 
-// type Props = {
-//   sideBar: { icon: React.ReactNode; title: string }[];
-// };
-// { sideBar }: Props
 const SideBar = () => {
   return (
     <nav className="sidebar">
       <ul className="side-nav">
-        <li className="side-nav__item">
+        <li className="side-nav__item side-nav__item--active">
           <a href="#" className="side-nav__link">
             <BiSolidHome className="side-nav__icon" />
             <span>Hotel</span>
