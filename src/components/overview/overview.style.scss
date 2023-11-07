@@ -1,0 +1,30 @@
+.overview {
+  display: flex;
+  justify-content: flex-end;
+
+  &__heading {
+  }
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    color: var(--color-primary);
+  }
+
+  &__location {
+  }
+
+  &__rating {
+  }
+
+  &__rating-average {
+  }
+
+  &__rating-count {
+  }
+}
