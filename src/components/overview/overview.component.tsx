@@ -1,6 +1,7 @@
 import { BsFillStarFill } from 'react-icons/bs';
 import { FaLocationDot } from 'react-icons/fa6';
 import './overview.style.scss';
+import Button from '@components/review-card-button/button.component';
 
 const Overview = () => {
   return (
@@ -17,7 +18,7 @@ const Overview = () => {
 
       <div className="overview__location">
         <FaLocationDot className="overview__icon-location" />
-        <button className="btn-inline">Albufeira, Portugal</button>
+        <Button buttonType="inline">Albufeira, Portugal</Button>
       </div>
 
       <div className="overview__rating">
