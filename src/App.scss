@@ -34,4 +34,8 @@
   @include respond(bp-medium) {
     padding: 3rem;
   }
+
+  @include respond(bp-small) {
+    flex-direction: column;
+  }
 }

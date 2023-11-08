@@ -1,3 +1,5 @@
+@import '../../assets/scss/mixin';
+
 .header {
   font-size: 1.4rem;
   height: 7rem;
@@ -6,6 +8,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @include respond(bp-smallest) {
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 11rem;
+  }
 }
 
 .search {
@@ -13,6 +21,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include respond(bp-smallest) {
+    order: 1;
+    flex: 0 0 100%;
+    background-color: var(--color-grey-light-2);
+  }
 }
 
 .logo {

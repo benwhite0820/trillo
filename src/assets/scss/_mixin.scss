@@ -1,17 +1,17 @@
 @mixin respond($breakpoint) {
-  // @if $breakpoint == phone {
-  //   @media only screen and (max-width: 37.5em) {
-  //     // 600px
-  //     @content;
-  //   }
-  // }
+  @if $breakpoint == bp-smallest {
+    @media only screen and (max-width: 31.25em) {
+      // 500px
+      @content;
+    }
+  }
 
-  // @if $breakpoint == tab-port {
-  //   @media only screen and (max-width: 56.25em) {
-  //     // 900px
-  //     @content;
-  //   }
-  // }
+  @if $breakpoint == bp-small {
+    @media only screen and (max-width: 37.5em) {
+      // 600px
+      @content;
+    }
+  }
 
   @if $breakpoint == bp-medium {
     @media only screen and (max-width: 56.25em) {
